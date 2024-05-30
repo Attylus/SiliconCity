@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stacked Overflow Bar</title>
+    <style>
+        body {
+            font-family: 'Terminal', 'System', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #111; /* Darker Gray */
+            color: white; /* White Font */
+        }
+        header {
+            background-color: #222; /* Dark Gray */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #222; /* Dark Gray */
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        footer {
+            background-color: #222; /* Dark Gray */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to The Stacked Overflow Bar</h1>
+            <p>Your Favorite Tech-Themed Hangout</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The Stacked Overflow Bar is a tech-themed bar located in the heart of Silicon City. Whether you're a coder, a gamer, or just someone who loves a good drink, our welcoming atmosphere and friendly staff will make you feel right at home.</p>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <h3>Drinks</h3>
+            <ul>
+                <li>Craft Beers</li>
+                <li>Signature Cocktails</li>
+                <li>Whiskeys & Bourbons</li>
+                <li>Wines by the Glass</li>
+                <li>Non-Alcoholic Beverages</li>
+            </ul>
+            <h3>Food</h3>
+            <ul>
+                <li>Nachos</li>
+                <li>Buffalo Wings</li>
+                <li>Sliders</li>
+                <li>Fries & Onion Rings</li>
+                <li>Cheese Platter</li>
+                <li>Charcuterie Board</li>
+            </ul>
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+            <p>Join us for our weekly trivia nights, coding competitions, and other exciting events. Check our calendar for more details and upcoming events!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: (555) 765-4321</p>
+            <p>Address: 46 18th Street, Silicon City, Calisota</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 The Stacked Overflow Bar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
