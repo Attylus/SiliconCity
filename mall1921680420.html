@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silicon City Mall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .column {
+            flex: 1;
+            max-width: 50%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .store {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .store h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .full-width {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .column {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Silicon City Mall</h1>
+        <p>Your one-stop destination for shopping, dining, and entertainment!</p>
+    </header>
+    <nav>
+        <a href="#clothing">Clothing</a>
+        <a href="#cosmetics">Cosmetics</a>
+        <a href="#jewelry">Jewelry/Accessories</a>
+        <a href="#books">Books/Entertainment</a>
+        <a href="#toys">Toys/Games</a>
+        <a href="#novelties">Novelties</a>
+        <a href="#sports">Sports/Outdoors</a>
+        <a href="#foodcourt">Food Court</a>
+        <a href="#other">Other</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <div class="column">
+            <section id="clothing">
+                <h2>Clothing</h2>
+                <div class="store">
+                    <h3>Dillard's</h3>
+                    <p>Find the latest fashion trends for men, women, and children.</p>
+                </div>
+                <div class="store">
+                    <h3>Forever 21</h3>
+                    <p>Trendy and affordable fashion for young adults.</p>
+                </div>
+                <div class="store">
+                    <h3>Macy's</h3>
+                    <p>Your destination for fashion, beauty, and home essentials.</p>
+                </div>
+                <div class="store">
+                    <h3>Journey's</h3>
+                    <p>Specializing in footwear and accessories for teens.</p>
+                </div>
+                <div class="store">
+                    <h3>Hot Topic</h3>
+                    <p>Alternative clothing and accessories for fans of music and pop culture.</p>
+                </div>
+            </section>
+            
+            <section id="jewelry">
+                <h2>Jewelry/Accessories</h2>
+                <div class="store">
+                    <h3>Claire's</h3>
+                    <p>Jewelry, accessories, and more for young girls and teens.</p>
+                </div>
+                <div class="store">
+                    <h3>Zales</h3>
+                    <p>Fine jewelry and diamonds for every occasion.</p>
+                </div>
+            </section>
+            
+            <section id="books">
+                <h2>Books/Entertainment</h2>
+                <div class="store">
+                    <h3>Barnes & Noble</h3>
+                    <p>A wide selection of books, magazines, and gifts for all ages.</p>
+                </div>
+                <div class="store">
+                    <h3>Regal Cinemas</h3>
+                    <p>Catch the latest movies in our comfortable theaters.</p>
+                </div>
+                <div class="store">
+                    <h3>FYE</h3>
+                    <p>Your entertainment store for music, movies, and collectibles.</p>
+                </div>
+            </section>
+            
+            <section id="sports">
+                <h2>Sports/Outdoors</h2>
+                <div class="store">
+                    <h3>The LAN'd Outdoor and Supply</h3>
+                    <p>Outdoor gear and supplies for all your adventure needs.</p>
+                </div>
+                <div class="store">
+                    <h3>Lids</h3>
+                    <p>Specializing in hats and sports apparel.</p>
+                </div>
+                <div class="store">
+                    <h3>Joe's Jerseys</h3>
+                    <p>Your source for team jerseys and sports memorabilia.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="column">
+            <section id="cosmetics">
+                <h2>Cosmetics</h2>
+                <div class="store">
+                    <h3>Sephora</h3>
+                    <p>The best in cosmetics, skincare, makeup, fragrance, and more.</p>
+                </div>
+            </section>
+
+            <section id="toys">
+                <h2>Toys/Games</h2>
+                <div class="store">
+                    <h3>GameStop</h3>
+                    <p>The ultimate destination for video games, consoles, and accessories.</p>
+                </div>
+            </section>
+            
+            <section id="novelties">
+                <h2>Novelties</h2>
+                <div class="store">
+                    <h3>Spencer's Gifts</h3>
+                    <p>Unique gifts, funny tees, and adult novelty items.</p>
+                </div>
+                <div class="store">
+                    <h3>Kako's Crystals and Chakra Repair</h3>
+                    <p>Crystals, chakra healing, and spiritual supplies.</p>
+                </div>
+                <div class="store">
+                    <h3>Steve's Teas</h3>
+                    <p>A wide variety of teas and tea accessories.</p>
+                </div>
+            </section>
+            
+            <section id="foodcourt">
+                <h2>Food Court</h2>
+                <div class="store">
+                    <h3>Chick-Fil-A</h3>
+                    <p>Delicious chicken sandwiches and more.</p>
+                </div>
+                <div class="store">
+                    <h3>Panda Express</h3>
+                    <p>Fast and fresh Chinese cuisine.</p>
+                </div>
+                <div class="store">
+                    <h3>Tropical Smoothie</h3>
+                    <p>Refreshing smoothies and healthy snacks.</p>
+                </div>
+                <div class="store">
+                    <h3>Sbarro</h3>
+                    <p>Authentic New York-style pizza.</p>
+                </div>
+                <div class="store">
+                    <h3>Burger King</h3>
+                    <p>Flame-grilled burgers and fast food favorites.</p>
+                </div>
+                <div class="store">
+                    <h3>Cinnabon</h3>
+                    <p>World famous cinnamon rolls and baked goods.</p>
+                </div>
+                <div class="store">
+                    <h3>K-Dog</h3>
+                    <p>Delicious Korean corndogs.</p>
+                </div>
+            </section>
+
+            <section id="other">
+                <h2>Other</h2>
+                <div class="store">
+                    <h3>Hallmark</h3>
+                    <p>Greeting cards, gifts, ornaments, and more.</p>
+                </div>
+                <div class="store">
+                    <h3>Paulie's Portrait Studio</h3>
+                    <p>Professional photography services for all occasions.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="content full-width">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 451 E Silicon Dr, Silicon City, Calisota</p>
+            <p>Phone: (555) 321-7890</p>
+            <p>Email: info@siliconcitymall.com</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Silicon City Mall. All rights reserved.</p>
+    </footer>
+</body>
+</html>
